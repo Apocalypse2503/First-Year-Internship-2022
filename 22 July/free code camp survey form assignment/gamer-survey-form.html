@@ -1,0 +1,155 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Gamer Survey Form</title>
+   <link rel="stylesheet" href="styles.css" >
+ </head>
+ <body>
+ <div class="survey">    
+ <h1 id="title">Gamer Survey Form</h1>
+ <p id="description">This is a survey to understand gamers</p>
+   <form id="survey-form" action='https://survey-demo.freecodecamp.org'>
+    <fieldset>
+       <label id="name-label">Name: <input placeholder="Gamer Name" type="text" name="name" id="name" required ></label>
+       <label id="email-label">Email: <input placeholder="Email Id" type="email" name="email" id="email" required ></label>
+       <label id="number-label">Age (years): <input placeholder="what is your age?" type="number" id="number" name="age" min="13" max="120"/></label>
+       <label>Which platform do you currently play on ?     
+         <select id="dropdown" name="platform">
+           <option value="">Select Platform</option>
+           <option value="1">PC</option>
+           <option value="2">Playstation</option>
+           <option value="3">XBox</option>
+           <option value="4">Nintendo Switch</option>
+           <option value="5">Mobile</option>
+         </select>
+       </label>
+     </fieldset>
+     <fieldset>
+<label>Are you a Casual or Competitive Gamer?</label>
+     </fieldset>
+<label><input type="radio" name="gamer-type" value="casual" class="inline" /> Casual</label>
+       <label><input type="radio" name="gamer-type" value="competitive" class="inline" /> Competitive</label>
+   </label>    
+       <label>
+         <fieldset>
+           <label>What is your favourite genre of Games?
+             <select name="referrer">
+               <option value="">Select an option</option>
+               <option value="1">Shooter</option>
+               <option value="2">RPG</option>
+               <option value="3">Strategy</option>
+               <option value="4">Puzzle</option>
+               <option value="5">Open World</option>
+             </select>
+           </label>
+           <fieldset>
+            <label>Which Games have you already played from the following?</label>
+            <label><input type="checkbox" name="Games" value="Games" class="inline" />Valorant</label>
+            <label><input type="checkbox" name="Games" value="Games" class="inline" />GTA</label>
+            <label><input type="checkbox" name="Games" value="Games" class="inline" />Call of Duty</label>
+            <label><input type="checkbox" name="Games" value="Games" class="inline" />Apex Legends</label>
+            <label><input type="checkbox" name="Games" value="Games" class="inline" />Age of Empires</label>
+            <label><input type="checkbox" name="Games" value="Games" class="inline" />Genshin Impact</label>
+            <label><input type="checkbox" name="Games" value="Games" class="inline" />FarCry</label>
+            <label><input type="checkbox" name="Games" value="Games" class="inline" />God of War</label>
+            <label><input type="checkbox" name="Games" value="Games" class="inline" />The Last of US</label>
+            <label><input type="checkbox" name="Games" value="Games" class="inline" />Minecraft</label>
+           </fieldset>
+            <label>What kind of games do you look forward to in th future?
+              <textarea name="bio" rows="3" cols="30" placeholder="Enter your comments here..."></textarea>
+            </label>
+           </fieldset>
+              <input type="submit" id="submit" value="Submit" />
+           </fieldset>
+ </div>
+ </body>
+</html>
+           
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+ width: 100%;
+ height: 100vh;
+ margin: 0;
+ background-image: url(https://wallpaperaccess.com/full/1434761.jpg);
+	color: #f5f6f7;
+ font-family: Tahoma;
+	font-size: 16px;
+}
+
+h1, p {
+ margin: 1em auto;
+ text-align: center;
+}
+
+form {
+ width: 60vw;
+	max-width: 500px;
+	min-width: 300px;
+	margin: 0 auto;
+}
+
+fieldset {
+ border: none;
+ padding: 2rem 0;
+ border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+ border-bottom: none;
+}
+
+label {
+ display: block;
+	margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+ margin: 10px 0 0 0;
+	width: 100%;
+ min-height: 2em;
+}
+
+input, textarea {
+ background-color: #0a0a23;
+ border: 1px solid #0a0a23;
+ color: #ffffff;
+}
+
+.inline {
+ width: unset;
+ margin: 0 0.5em 0 0;
+ vertical-align: middle;
+}
+
+input[type="submit"] {
+ display: block;
+ width: 60%;
+ margin: 0 auto;
+ height: 2em;
+ font-size: 1.1rem;
+ background-color: #3b3b4f;
+ border-color: white;
+
+}
+
+.survey {
+  width: 80%;
+  background-color: rgba(50, 50, 75, 0.6);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 700px;
+}
+
+** end of undefined **
+
