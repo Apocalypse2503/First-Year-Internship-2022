@@ -1,0 +1,35 @@
+img{
+  max-width:300px;
+}
+
+nav{
+  text-align:center;
+}
+
+body{
+  text-align:center;
+  overflow:hidden;
+}
+
+#pricing{
+  display:flex;
+  justify-content:center;
+}
+
+#main-footer{
+  text-align:center;
+}
+
+#nav-bar{
+  position:fixed;
+}
+
+.price-box{
+  padding:0 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
