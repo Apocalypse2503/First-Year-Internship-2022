@@ -1,0 +1,17 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+
+body{
+  background-color:#000033;
+  color:rgba(255, 255, 0, 75%);
+}  
+
+a{
+  color:rgba(0, 255, 255, 80%);
+}
+
+h1, h2{
+  color:rgba(255, 255, 0, 100%);
+}
